@@ -1,0 +1,31 @@
+{
+  "name": "auth-with-jwt",
+  "version": "1.0.0",
+  "description": "Mastering NodeJS authentication using JWT",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon --exec babel-node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizip/auth-with-jwt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizip/auth-with-jwt/issues"
+  },
+  "homepage": "https://github.com/bizip/auth-with-jwt#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
